@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" fill="none">
+  <defs>
+    <linearGradient id="installGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#1D4ED8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Tray / Base -->
+  <path 
+    d="M 112 336 V 384 C 112 401.673 126.327 416 144 416 H 368 C 385.673 416 400 401.673 400 384 V 336" 
+    stroke="url(#installGradient)" 
+    stroke-width="36" 
+    stroke-linecap="round" 
+    stroke-linejoin="round"
+  />
+
+  <!-- Arrow Shaft -->
+  <path 
+    d="M 256 96 V 304" 
+    stroke="url(#installGradient)" 
+    stroke-width="36" 
+    stroke-linecap="round"
+  />
+
+  <!-- Arrow Head -->
+  <path 
+    d="M 168 216 L 256 304 L 344 216" 
+    stroke="url(#installGradient)" 
+    stroke-width="36" 
+    stroke-linecap="round" 
+    stroke-linejoin="round"
+  />
+</svg>
+
